@@ -8,7 +8,8 @@ app.use(express.json());
 app.use(express.static("public"));
 
 const openai = new OpenAI({
-  apiKey: "sk-proj-unw4M4yfPmix8mNH-QlrknX_mRKfJw1bEE_3xsA",
+  apiKey:
+    "tulSKqbBEs47FQas5mgO0ID0Bjyx-ydT3Blbj0MtlJEhVajO7F2PUSThZJPv2FTEE_3xsA", // Ganti API
 });
 
 app.post("/api/chat", async (req, res) => {
